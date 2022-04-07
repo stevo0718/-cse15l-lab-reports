@@ -22,3 +22,5 @@ print 'indent 4 spaces'
 1. 1
 2. 2
 3. 3
+
+[Lab Report 1](https://stevo0718.github.io/<your-lab-reports-repo>/lab-report-1-week-2.html)
