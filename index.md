@@ -23,4 +23,4 @@ print 'indent 4 spaces'
 2. 2
 3. 3
 
-[Lab Report 1](https://stevo0718.github.io/lab-report-1-week-2.html)
+[Lab Report 1](https://stevo0718.github.io/-cse15l-lab-reports/lab-report-1-week-2.html)
