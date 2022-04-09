@@ -37,7 +37,7 @@ Step 3: Trying some commands
 
 Now we can try some commands. Here I tried **cd ~** and **ls -lat**. By showing what the image shows indicate that your command worked fine.
 
-![Image](Run some commands.png)
+![Image](RunSomeCommands.png)
 
 Step 4: Moving Files with scp
 
@@ -59,7 +59,7 @@ class WhereAmI {
 * Log into your account using ssh again, then use ls. You should be able to see the file in your home directory.
 * Now you can run javac and java without installing java in your computer. You should see something like this screenshot
 
-![Image](Save files.png)
+![Image](SaveFiles.png)
 
 Step 5: Setting an SSH key
 
@@ -76,7 +76,7 @@ Enter passphrase (empty for no passphrase):
     Make sure to leave it empty for passphrase
 4. Then, keep on clicking the enter button until it gives you the Key's randomart image like this picture:
 
-![Image](SSH key.png)
+![Image](SSHkey.png)
 
 5. Now, log in to your account with ssh again, enter the password, and enter **mkdir .ssh** to log out. 
 6. Type in **scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys** with your own user name.
