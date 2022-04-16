@@ -94,9 +94,10 @@ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa
 Enter passphrase (empty for no passphrase): 
-
-    Make sure to leave it empty for passphrase
 ```
+
+Make sure to leave it empty for passphrase
+
 4. Then, keep on clicking the enter button until it gives you the Key's randomart image like this picture:
 
 ![Image](SSHkey.png)
