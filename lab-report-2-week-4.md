@@ -23,7 +23,7 @@ The output of the failed code:
 
 ![Output](Symptom1.png)
 
-When I first run the program with the given code, I found out that it will go into an infinite loop if the file does not contain `[]`. So I added an if statement to make sure that the code check the `[]` before it goes to print statement in the main method.
+When I first run the program with the given code, I found out that the program would print out the invalid link even if the link does not contain `[]`. So I added an if statement to make sure that the code check the `[]` before it goes to print statement in the main method.
 
 # 2nd code change
 
@@ -60,4 +60,4 @@ The output of the failed code:
 
 ![Output](Symptom3.png)
 
-It is the same file that I found the infinite loop I encountered at the beginning of the time, but this time the cause of the infinite loop is different. I noticed that if I don't add an `else{ break }` statement, once the if statement is not met, the while loop will keep on looping and create an infinite loop. Therefore I added an break statement to end the loop. Another change that I made beyond this is that I deleted the space check in the second change, because I found out that if there are spaces in the link line, my code will not print that invalid link.
+It is the same file that I found the infinite loop. I noticed that if I don't add an `else{ break }` statement, once the if statement is not met, the while loop will keep on looping and create an infinite loop. Therefore I added an break statement to end the loop. Another change that I made beyond this is that I deleted the space check in the second change, because I found out that if there are spaces in the link line, my code will not print that invalid link.
