@@ -58,6 +58,6 @@ Test file that prompted me to make the change:
 
 The output of the failed code:
 
-![Output](Symptom2.png)
+![Output](Symptom3.png)
 
 It is the same file that I found the infinite loop I encountered at the beginning of the time, but this time the cause of the infinite loop is different. I noticed that if I don't add an `else{ break }` statement, once the if statement is not met, the while loop will keep on looping and create an infinite loop. Therefore I added an break statement to end the loop. Another change that I made beyond this is that I deleted the space check in the second change, because I found out that if there are spaces in the link line, my code will not print that invalid link.
