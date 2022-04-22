@@ -41,7 +41,7 @@ The output of the failed code:
 
 ![Output](Symptom2.png)
 
-After the first change, I found that I also need to consider the `()` and search for it before the print statement. And I didn't want any spaces inside the same line of the link, so I added a line of `!subString.contains(" ")` to make sure that the link does not have any space inside.
+After the first change, I found that I also need to consider the `()` and search for it before the print statement. And I didn't want any spaces inside the same line of the link, so I added a line of `!subString.contains(" ")` to make sure that the link does not have any space inside and to avoid the index out of bound error caused by the spaces inside the link.
 
 
 # 3rd code change
