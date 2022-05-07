@@ -50,6 +50,8 @@ After adding the file, I am able to compile and run the tests on the server.
 
 ![RunOnServer](RunOnServer.png)
 
+Please ignore the failed test. I am still working on the edge cases.
+
 And for even more convenient purpose, I can move the files and run commands together in one line 
 using `:` to combine the commands.
 
