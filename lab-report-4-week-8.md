@@ -24,7 +24,7 @@ When I run the code in the review file, it failed and shows this:
 
 ![test9](test9.png)
 
-Since my code is showing that it ran out of memory, I assume that it ran into an infinite loop and couldn't get out. I'm still thinking which part of my code went wrong and I think it will require a big change to the code which might take more than 10 lines.
+Since my code is showing that it ran out of memory, I assume that it ran into an infinite loop and couldn't get out. I'm still thinking which part of my code went wrong and I think it will require a big change to the code which might take more than 10 lines. The failure of my code is not only with the existence of backticks, but also with spaces in between.
 
 # Snippet 2
 
@@ -46,7 +46,7 @@ When I run the code in the review file, it failed and shows this:
 
 ![test10](test10.png)
 
-Again, it seems like the code is facing the same challenge as facing scippet 1. The code went into an infinite loop and couldn't excape from it. I might need to reconsider the logic behind my code and check different conditions for different cases like what the review file did.
+Again, it seems like the code is facing the same challenge as facing scippet 1. The code went into an infinite loop and couldn't excape from it. I might need to reconsider the logic behind my code and check different conditions for different cases like what the review file did instead of just checking the existence of brackets and parenthesis.
 
 # Snippet 3
 
@@ -68,4 +68,4 @@ When I run the code in the review file, it failed and shows this:
 
 ![test10](test10.png)
 
-Snippet 3 is having the exact same problem as snippet 1 and snippet 2. They all went into an infinite loop. The reason behind it might be that I only checked for brackets and parenthesis and as long as they have these two things, I would consider them as valid links and pass them into the adding process. What I need in my code is conditions that would check different situations that might make the link invalid, which would take more than 10 lines and is considered as a big code change.
+Snippet 3 is having the exact same problem as snippet 1 and snippet 2. They all went into an infinite loop. The reason behind it might be that I only checked for brackets and parenthesis and as long as they have these two things, I would consider them as valid links and pass them into the adding process. What I need in my code is conditions that would check different situations that might make the link invalid, which would take more than 10 lines and is considered as a big code change. However, if I managed a way to solve the infinite loop problem, I might be able to fix the logic with my code by checking the file to make sure that there will not be additional line breaks inside the link.
