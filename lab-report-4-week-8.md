@@ -54,18 +54,18 @@ The correct code should produce `<[https://sites.google.com/eng.ucsd.edu/cse-15l
 
 I wrote the tester like this in my code:
 
-![tester7](tester7.png)
+![tester8](tester8.png)
 
 When I run my code, it failed and shows this:
 
-![test7](test7.png)
+![test8](test8.png)
 
 I wrote the tester like this in the review file:
 
-![tester10](tester10.png)
+![tester11](tester11.png)
 
 When I run the code in the review file, it failed and shows this:
 
-![test10](test10.png)
+![test11](test11.png)
 
 Snippet 3 is having the exact same problem as snippet 1 and snippet 2. They all went into an infinite loop. The reason behind it might be that I only checked for brackets and parenthesis and as long as they have these two things, I would consider them as valid links and pass them into the adding process. What I need in my code is conditions that would check different situations that might make the link invalid, which would take more than 10 lines and is considered as a big code change. However, if I managed a way to solve the infinite loop problem, I might be able to fix the logic with my code by checking the file to make sure that there will not be additional line breaks inside the link.
