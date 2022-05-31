@@ -26,7 +26,7 @@ By comparison, we can see that my output is correct, and the given output is wro
 
 I think the problem in the given repository is that within the while loop as shown below, it should check for othe possible characters other than spaces between the closed bracket and the open parenthesis.
 
-![fix1](fix1)
+![fix1](fix1.png)
 
 After adding codes to check for the characters in between, this getLinks method should generate the correct output for this test file.
 
@@ -46,6 +46,6 @@ By comparison, we can see that my output is correct, and the given output is wro
 
 The reason that the given code is making this error is that it did not check for possible marks that might change the state of words, such as ` `` `, which will make the words in between become cited as code. 
 
-![fix2](fix2)
+![fix2](fix2.png)
 
 To solve this problem, my suggestion would be add another condition checking process before the return statement as shown above. The checking process should check all possible marks that would change the state of words.
